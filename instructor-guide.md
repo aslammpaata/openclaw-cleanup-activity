@@ -64,7 +64,8 @@ Before the class, ensure students have:
 Option A - Shared script:
 ```bash
 # Have students run this
-curl -fsSL https://raw.githubusercontent.com/YOUR-REPO/messy-docs-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aslammpaata/openclaw-cleanup-activity/main/messy-docs-setup.sh | bash
+
 ```
 
 Option B - Manual creation:
@@ -74,7 +75,7 @@ mkdir -p ~/messy-docs-activity/{documents,docs,Downloads,temp}
 # ... (see student worksheet)
 ```
 
-**Check for理解:**
+**Check for the created directory:**
 ```bash
 # Verify everyone has the directory
 ls -la ~/messy-docs-activity
