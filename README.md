@@ -10,6 +10,7 @@ This folder contains teaching materials for a hands-on activity demonstrating de
 |------|---------|---------------|
 | `messy-docs-setup.sh` | Creates the messy directory for students | Students (or host on GitHub) |
 | `student-worksheet.md` | Step-by-step student instructions | Students |
+| `student-commands.md` | Copy-paste commands for downloading the setup script | Students |
 | `instructor-guide.md` | Teaching script and notes | Instructor only |
 | `quick-reference.md` | One-page prompt cheat sheet | Students (print) |
 

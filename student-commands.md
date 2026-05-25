@@ -16,6 +16,6 @@ curl -fsSL https://raw.githubusercontent.com/aslammpaata/openclaw-cleanup-activi
 ### Option 3: Clone Repository
 ```bash
 git clone https://github.com/aslammpaata/openclaw-cleanup-activity.git
-cd openclaw-cleanup-activity/main
+cd openclaw-cleanup-activity
 bash messy-docs-setup.sh
 ```

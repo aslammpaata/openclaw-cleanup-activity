@@ -19,20 +19,22 @@ cd "$TARGET_DIR"
 
 # ─── Create directory structure ─────────────────────────────────────
 
-mkdir -p "documents" "docs" "Downloads" "desktop" "old stuff" "NEW FOLDER" "temp" "tmp"
+mkdir -p "documents" "docs" "Downloads" "desktop" "old stuff" "NEW FOLDER" "temp"
 
 # ─── Create duplicate files with different names ─────────────────────
 
 echo "Creating duplicate files..."
 
-# Project proposal - 3 copies
-echo "PROJECT PROPOSAL - AI Learning Platform - Draft Version" > "documents/project_proposal_v1.docx"
-echo "PROJECT PROPOSAL - AI Learning Platform - Final Version" > "docs/proposal_final.docx"
-echo "PROJECT PROPOSAL - AI Learning Platform - Copy" > "NEW FOLDER/Copy of proposal.docx"
+# Project proposal - 3 identical copies under different names
+PROPOSAL_CONTENT="PROJECT PROPOSAL - AI Learning Platform - Final Version"
+echo "$PROPOSAL_CONTENT" > "documents/project_proposal_v1.docx"
+echo "$PROPOSAL_CONTENT" > "docs/proposal_final.docx"
+echo "$PROPOSAL_CONTENT" > "NEW FOLDER/Copy of proposal.docx"
 
-# Budget spreadsheet -2 copies
-echo "Budget Q1 2024: Marketing \$5,000, Development \$15,000, Operations \$3,000" > "documents/budget_2024_Q1.xlsx"
-echo "Budget Q1 2024: Marketing \$5,000, Development \$15,500, Operations \$3,000" > "desktop/budget draft.xlsx"
+# Budget spreadsheet - 2 identical copies under different names
+BUDGET_CONTENT="Budget Q1 2024: Marketing \$5,000, Development \$15,000, Operations \$3,000"
+echo "$BUDGET_CONTENT" > "documents/budget_2024_Q1.xlsx"
+echo "$BUDGET_CONTENT" > "desktop/budget draft.xlsx"
 
 # Meeting notes - scattered
 echo "Meeting Notes - January 15, 2024: Attendees: John, Sarah, Mike, Lisa" > "documents/meeting_notes_jan.txt"

@@ -126,7 +126,7 @@ Present the plan as a table or bulleted list. DO NOT make any changes yet.
 
 **Teaching point:**
 
-> "Notice we said 'DO NOT make changes yet.' This is important—always have the AI show you what it plans to dobefore executing. This is called 'human-in-the-loop' and prevents mistakes."
+> "Notice we said 'DO NOT make changes yet.' This is important—always have the AI show you what it plans to do before executing. This is called 'human-in-the-loop' and prevents mistakes."
 
 **Ask students to compare plans with neighbors:**
 - Did everyone get similar plans?
@@ -172,8 +172,8 @@ Please verify the cleanup worked:
 ```
 
 **Check results as a class:**
-- How many files before? (Answer: ~24)
-- How many after? (Answer: ~12)
+- How many files before? (Answer: 32)
+- How many after? (Answer: ~10-12, depending on the agent's choices)
 - What was deleted? (Answer: .tmp, .DS_Store, duplicate proposals)
 - What was preserved? (Answer: contracts, invoices, important files)
 
