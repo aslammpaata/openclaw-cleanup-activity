@@ -23,7 +23,7 @@ By the end of this activity, you will:
 ```bash
 # Download and create messy directory
 cd ~
-curl -fsSL https://raw.githubusercontent.com/openclaw-cleanup-activity/main/messy-docs-setup.sh -o messy-docs-setup.sh
+curl -fsSL https://raw.githubusercontent.com/aslammpaata/openclaw-cleanup-activity/main/messy-docs-setup.sh -o messy-docs-setup.sh
 bash messy-docs-setup.sh
 ```
 
