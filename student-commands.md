@@ -2,22 +2,20 @@
 
 ## Get the Setup Script
 
-Replace `YOUR-USERNAME` with your instructor's GitHub username.
-
 ### Option 1: Download and Run (Recommended)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR-USERNAME/openclaw-cleanup-activity/main/teaching/messy-docs-setup.sh -o messy-docs-setup.sh
+curl -fsSL https://raw.githubusercontent.com/aslammpaata/openclaw-cleanup-activity/main/teaching/messy-docs-setup.sh -o messy-docs-setup.sh
 bash messy-docs-setup.sh
 ```
 
 ### Option 2: Pipe Directly (Quick)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR-USERNAME/openclaw-cleanup-activity/main/teaching/messy-docs-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aslammpaata/openclaw-cleanup-activity/main/teaching/messy-docs-setup.sh | bash
 ```
 
 ### Option 3: Clone Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/openclaw-cleanup-activity.git
+git clone https://github.com/aslammpaata/openclaw-cleanup-activity.git
 cd openclaw-cleanup-activity/teaching
 bash messy-docs-setup.sh
 ```
